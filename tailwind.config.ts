@@ -19,6 +19,13 @@ export default {
 		},
 		extend: {
 			colors: {
+				'industrial': {
+					orange: 'hsl(var(--industrial-orange))',
+					blue: 'hsl(var(--industrial-blue))',
+					dark: 'hsl(var(--industrial-dark))',
+					surface: 'hsl(var(--industrial-surface))',
+					border: 'hsl(var(--industrial-border))',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -62,6 +69,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-surface': 'var(--gradient-surface)',
+				'gradient-accent': 'var(--gradient-accent)',
+			},
+			boxShadow: {
+				'industrial': 'var(--shadow-industrial)',
+				'glow': 'var(--shadow-glow)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
